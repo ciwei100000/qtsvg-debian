@@ -1,3 +1,10 @@
+qtsvg-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Mar 2019 15:57:44 +0300
+
 qtsvg-opensource-src (5.11.3-2) unstable; urgency=medium
 
   [ Simon Quigley ]
