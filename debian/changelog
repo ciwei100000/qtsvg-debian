@@ -6,6 +6,7 @@ qtsvg-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Remove code to fix permissions in examples, no longer needed.
   * Update debian/libqt5svg5.symbols from the current build log.
   * Bump qtsvg-abi version to 5-12-2.
+  * Update Homepage URL.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Mar 2019 15:57:44 +0300
 
