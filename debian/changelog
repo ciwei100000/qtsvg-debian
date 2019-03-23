@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.12.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.2.
   * Remove code to fix permissions in examples, no longer needed.
@@ -8,7 +7,7 @@ qtsvg-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Bump qtsvg-abi version to 5-12-2.
   * Update Homepage URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Mar 2019 15:57:44 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 23 Mar 2019 19:04:36 +0300
 
 qtsvg-opensource-src (5.11.3-2) unstable; urgency=medium
 
