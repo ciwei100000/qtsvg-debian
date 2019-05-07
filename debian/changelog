@@ -7,6 +7,7 @@ qtsvg-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.3.
   * Add Build-Depends-Package field to debian/libqt5svg5.symbols.
+  * Simplify debian/rules by using debian/not-installed file.
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 06:57:13 -0700
 
