@@ -5,6 +5,7 @@ qtsvg-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.12.3.
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 06:57:13 -0700
 
