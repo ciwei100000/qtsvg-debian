@@ -1,4 +1,4 @@
-qtsvg-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.12.3-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
@@ -10,7 +10,7 @@ qtsvg-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
   * Simplify debian/rules by using debian/not-installed file.
   * Add one new symbol to debian/libqt5svg5.symbols.
 
- -- Scarlett Moore <sgmoore@kde.org>  Mon, 06 May 2019 06:57:13 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 07 May 2019 21:49:01 +0300
 
 qtsvg-opensource-src (5.12.2-1) experimental; urgency=medium
 
