@@ -3,6 +3,7 @@ qtsvg-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.4.
+  * Mark one symbol as optional to fix FTBFS with GCC 9 (closes: #925815).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Jun 2019 13:42:33 +0300
 
