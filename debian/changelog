@@ -1,5 +1,7 @@
 qtsvg-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Remove one inline symbol to fix FTBFS with GCC 9 (closes: #925815).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Aug 2019 21:31:18 +0300
 
