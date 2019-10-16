@@ -5,6 +5,7 @@ qtsvg-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.5.
   * Bump ABI version to qtsvg-abi-5-12-5.
   * Update debian/libqt5svg5.symbols for GCC 9 changes.
+  * Bump Standards-Version to 4.4.1, no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 09 Aug 2019 17:20:30 -0700
 
