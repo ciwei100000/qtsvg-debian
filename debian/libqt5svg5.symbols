@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 amd64
+# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5Svg.so.5 libqt5svg5 #MINVER#
 | libqt5svg5 #MINVER#, qtsvg-abi-5-12-5
 * Build-Depends-Package: libqt5svg5-dev
@@ -183,7 +183,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QSvgTinyDocumentD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle11setStopLinkERK7QStringP16QSvgTinyDocument@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle12resolveStopsEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN17QSvgGradientStyle19resolveStops_helperEP11QStringList@Qt_5_PRIVATE_API 5.12.3
+ _ZN17QSvgGradientStyle19resolveStops_helperEP11QStringList@Qt_5_PRIVATE_API 5.12.3 1
  _ZN17QSvgGradientStyle5brushEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle9setMatrixERK7QMatrix@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyleC1EP9QGradient@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -274,7 +274,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN9QSvgStyle6revertEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgStyleD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgStyleD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=inline)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.9.0
  _ZNK10QSvgCircle4typeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK10QSvgSwitch4typeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK10QSvgWidget10metaObjectEv@Qt_5 5.6.0~beta
