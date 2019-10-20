@@ -1,9 +1,11 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 armhf ia64 mips64el riscv64 sparc64
+# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5Svg.so.5 libqt5svg5 #MINVER#
-| libqt5svg5 #MINVER#, qtsvg-abi-5-6-0
+| libqt5svg5 #MINVER#, qtsvg-abi-5-12-5
+* Build-Depends-Package: libqt5svg5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.0
  Qt_5.11@Qt_5.11 5.11.1
+ Qt_5.12@Qt_5.12 5.12.0
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -38,6 +40,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN11QSvgHandler10charactersERK10QStringRef@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler10endElementERK10QStringRef@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler10setInStyleEb@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN11QSvgHandler12resolveNodesEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN11QSvgHandler12startElementERK7QStringRK20QXmlStreamAttributes@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler13pushColorCopyEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler13setAnimPeriodEii@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -180,6 +183,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QSvgTinyDocumentD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle11setStopLinkERK7QStringP16QSvgTinyDocument@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle12resolveStopsEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN17QSvgGradientStyle19resolveStops_helperEP11QStringList@Qt_5_PRIVATE_API 5.12.3 1
  _ZN17QSvgGradientStyle5brushEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle9setMatrixERK7QMatrix@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyleC1EP9QGradient@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -264,8 +268,8 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN9QSvgGlyphC1E5QCharRK12QPainterPathd@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgGlyphC2E5QCharRK12QPainterPathd@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgImage4drawEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN9QSvgImageC1EP8QSvgNodeRK6QImageRK5QRect@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN9QSvgImageC2EP8QSvgNodeRK6QImageRK5QRect@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN9QSvgImageC1EP8QSvgNodeRK6QImageRK6QRectF@Qt_5_PRIVATE_API 5.12.2 1
+ _ZN9QSvgImageC2EP8QSvgNodeRK6QImageRK6QRectF@Qt_5_PRIVATE_API 5.12.2 1
  _ZN9QSvgStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgStyle6revertEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN9QSvgStyleD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -280,6 +284,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZNK11QSvgHandler12currentColorEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QSvgHandler17animationDurationEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QSvgHandler23defaultCoordinateSystemEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZNK11QSvgHandler6deviceEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZNK11QSvgHandler7inStyleEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QSvgHandler8documentEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QSvgHandler8selectorEv@Qt_5_PRIVATE_API 5.6.0~beta 1

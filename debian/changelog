@@ -1,3 +1,46 @@
+qtsvg-opensource-src (5.12.5-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.12.5.
+  * Bump ABI version to qtsvg-abi-5-12-5.
+  * Update debian/libqt5svg5.symbols for GCC 9 changes.
+  * Bump Standards-Version to 4.4.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 17 Oct 2019 00:00:28 +0300
+
+qtsvg-opensource-src (5.12.4-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.12.4.
+  * Mark one symbol as optional to fix FTBFS with GCC 9 (closes: #925815).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 25 Jun 2019 14:03:25 +0300
+
+qtsvg-opensource-src (5.12.3-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Update packaging to use doc-base as per policy 9.10.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.12.3.
+  * Add Build-Depends-Package field to debian/libqt5svg5.symbols.
+  * Simplify debian/rules by using debian/not-installed file.
+  * Add one new symbol to debian/libqt5svg5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 07 May 2019 21:49:01 +0300
+
+qtsvg-opensource-src (5.12.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.12.2.
+  * Remove code to fix permissions in examples, no longer needed.
+  * Update debian/libqt5svg5.symbols from the current build log.
+  * Bump qtsvg-abi version to 5-12-2.
+  * Update Homepage URL.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 23 Mar 2019 19:04:36 +0300
+
 qtsvg-opensource-src (5.11.3-3) unstable; urgency=medium
 
   * Remove one inline symbol to fix FTBFS with GCC 9 (closes: #925815).
