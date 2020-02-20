@@ -5,6 +5,7 @@ qtsvg-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.14.1.
   * Bump ABI version to qtsvg-abi-5-14-1.
   * Update debian/libqt5svg5.symbols from the current build log.
+  * Update to debhelper compat level 12, use the new syntax.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Feb 2020 13:29:01 +0300
 
