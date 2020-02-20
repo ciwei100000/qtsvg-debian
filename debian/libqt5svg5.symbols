@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64
 libQt5Svg.so.5 libqt5svg5 #MINVER#
 | libqt5svg5 #MINVER#, qtsvg-abi-5-14-1
 * Build-Depends-Package: libqt5svg5-dev
@@ -6,6 +6,8 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  Qt_5.10@Qt_5.10 5.10.0
  Qt_5.11@Qt_5.11 5.11.1
  Qt_5.12@Qt_5.12 5.12.0
+ Qt_5.13@Qt_5.13 5.14.1
+ Qt_5.14@Qt_5.14 5.14.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -45,7 +47,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN11QSvgHandler13pushColorCopyEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler13setAnimPeriodEii@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler16resolveGradientsEP8QSvgNode@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN11QSvgHandler18parseCSStoXMLAttrsE7QStringP7QVectorI16QSvgCssAttributeE@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN11QSvgHandler18parseCSStoXMLAttrsERK7QStringP7QVectorI16QSvgCssAttributeE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN11QSvgHandler21processingInstructionERK7QStringS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler26setDefaultCoordinateSystemENS_10LengthTypeE@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler4initEv@Qt_5_PRIVATE_API 5.6.0~beta 1
