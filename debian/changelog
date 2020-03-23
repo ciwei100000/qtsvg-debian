@@ -1,3 +1,9 @@
+qtsvg-opensource-src (5.12.5-2build1) focal; urgency=medium
+
+  * No-change rebuild for libgcc-s1 package name change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 23 Mar 2020 07:24:01 +0100
+
 qtsvg-opensource-src (5.12.5-2) unstable; urgency=medium
 
   * Upload to unstable.
