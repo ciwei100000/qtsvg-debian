@@ -1,3 +1,9 @@
+qtsvg-opensource-src (5.12.8-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Thu, 09 Apr 2020 18:17:20 +0300
+
 qtsvg-opensource-src (5.12.5-2build1) focal; urgency=medium
 
   * No-change rebuild for libgcc-s1 package name change.
