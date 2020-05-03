@@ -1,12 +1,11 @@
-qtsvg-opensource-src (5.14.2-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.14.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Standards-Version to 5.14.2.
   * Bump ABI version to qtsvg-abi-5-14-2.
   * Remove build path from libQt5Svg.prl for reproducibility.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 May 2020 20:16:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 May 2020 20:35:05 +0300
 
 qtsvg-opensource-src (5.14.1-1) experimental; urgency=medium
 
