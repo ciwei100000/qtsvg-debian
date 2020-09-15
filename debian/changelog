@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.15.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.1.
   * Update to debhelper compat level 13.
@@ -10,7 +9,7 @@ qtsvg-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update debian/libqt5svg5.symbols from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Sep 2020 15:02:47 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 15 Sep 2020 16:11:12 +0300
 
 qtsvg-opensource-src (5.14.2-2) unstable; urgency=medium
 
