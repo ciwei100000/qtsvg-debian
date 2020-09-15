@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
 libQt5Svg.so.5 libqt5svg5 #MINVER#
 | libqt5svg5 #MINVER#, qtsvg-abi-5-15-1
 * Build-Depends-Package: libqt5svg5-dev
@@ -8,6 +8,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  Qt_5.12@Qt_5.12 5.12.0
  Qt_5.13@Qt_5.13 5.14.1
  Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.15@Qt_5.15 5.15.1
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
@@ -46,7 +47,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN11QSvgHandler12startElementERK7QStringRK20QXmlStreamAttributes@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler13pushColorCopyEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler13setAnimPeriodEii@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN11QSvgHandler16resolveGradientsEP8QSvgNode@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN11QSvgHandler16resolveGradientsEP8QSvgNodei@Qt_5_PRIVATE_API 5.15.1 1
  _ZN11QSvgHandler18parseCSStoXMLAttrsERK7QStringP7QVectorI16QSvgCssAttributeE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN11QSvgHandler21processingInstructionERK7QStringS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN11QSvgHandler26setDefaultCoordinateSystemENS_10LengthTypeE@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -75,6 +76,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN12QSvgRenderer13repaintNeededEv@Qt_5 5.6.0~beta
  _ZN12QSvgRenderer15setCurrentFrameEi@Qt_5 5.6.0~beta
  _ZN12QSvgRenderer16staticMetaObjectE@Qt_5 5.6.0~beta
+ _ZN12QSvgRenderer18setAspectRatioModeEN2Qt15AspectRatioModeE@Qt_5 5.15.1
  _ZN12QSvgRenderer18setFramesPerSecondEi@Qt_5 5.6.0~beta
  _ZN12QSvgRenderer4loadEP16QXmlStreamReader@Qt_5 5.6.0~beta
  _ZN12QSvgRenderer4loadERK10QByteArray@Qt_5 5.6.0~beta
@@ -169,6 +171,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QSvgTinyDocument16restartAnimationEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN16QSvgTinyDocument17mapSourceToTargetEP8QPainterRK6QRectFS4_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN16QSvgTinyDocument18setFramesPerSecondEi@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN16QSvgTinyDocument22setPreserveAspectRatioEb@Qt_5_PRIVATE_API 5.15.1 1
  _ZN16QSvgTinyDocument4drawEP8QPainter@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN16QSvgTinyDocument4drawEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN16QSvgTinyDocument4drawEP8QPainterRK6QRectF@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -185,9 +188,9 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QSvgTinyDocumentD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle11setStopLinkERK7QStringP16QSvgTinyDocument@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyle12resolveStopsEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN17QSvgGradientStyle12setTransformERK10QTransform@Qt_5_PRIVATE_API 5.15.1 1
  _ZN17QSvgGradientStyle19resolveStops_helperEP11QStringList@Qt_5_PRIVATE_API 5.12.3 1
  _ZN17QSvgGradientStyle5brushEP8QPainterR15QSvgExtraStates@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN17QSvgGradientStyle9setMatrixERK7QMatrix@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyleC1EP9QGradient@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgGradientStyleC2EP9QGradient@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QSvgStructureNode8addChildEP8QSvgNodeRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -299,10 +302,12 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZNK12QSvgRenderer11defaultSizeEv@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer12currentFrameEv@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer13elementExistsERK7QString@Qt_5 5.6.0~beta
+ _ZNK12QSvgRenderer15aspectRatioModeEv@Qt_5 5.15.1
  _ZNK12QSvgRenderer15boundsOnElementERK7QString@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer15framesPerSecondEv@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer16matrixForElementERK7QString@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer17animationDurationEv@Qt_5 5.6.0~beta
+ _ZNK12QSvgRenderer19transformForElementERK7QString@Qt_5 5.15.1
  _ZNK12QSvgRenderer7isValidEv@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer7viewBoxEv@Qt_5 5.6.0~beta
  _ZNK12QSvgRenderer8animatedEv@Qt_5 5.6.0~beta
@@ -336,8 +341,8 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZNK16QSvgTinyDocument12currentFrameEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument13elementExistsERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument15boundsOnElementERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZNK16QSvgTinyDocument16matrixForElementERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=inline|arch=armhf ia64 mips64el riscv64 sparc64)_ZNK16QSvgTinyDocument4sizeEv@Qt_5_PRIVATE_API 5.11.1 1
+ _ZNK16QSvgTinyDocument19transformForElementERK7QString@Qt_5_PRIVATE_API 5.15.1 1
+ (optional=inline|arch=armhf i386 ia64 mips64el riscv64 sparc64)_ZNK16QSvgTinyDocument4sizeEv@Qt_5_PRIVATE_API 5.11.1 1
  _ZNK16QSvgTinyDocument4typeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument7svgFontERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument8animatedEv@Qt_5_PRIVATE_API 5.6.0~beta 1

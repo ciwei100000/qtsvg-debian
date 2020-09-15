@@ -8,6 +8,7 @@ qtsvg-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
     - Use ${DEB_HOST_MULTIARCH} substitution in the install files.
   * Bump ABI version to qtsvg-abi-5-15-1.
   * Update debian/copyright.
+  * Update debian/libqt5svg5.symbols from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Sep 2020 15:02:47 +0300
 
