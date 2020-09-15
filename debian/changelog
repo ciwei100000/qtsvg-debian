@@ -5,6 +5,7 @@ qtsvg-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.15.1.
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution in the install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Sep 2020 15:02:47 +0300
 
