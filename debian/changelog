@@ -6,6 +6,7 @@ qtsvg-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.15.2.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 01 Nov 2020 13:13:12 -0000
 
