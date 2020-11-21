@@ -9,6 +9,8 @@ qtsvg-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.15.2.
   * Bump ABI version to qtsvg-abi-5-15-2.
   * Stop adding -Wl,--as-needed to LDFLAGS, it is default in Bullseye.
+  * Build-depend only on the needed documentation tools, not on the
+    large qttools5-dev-tools package.
 
  -- Debian Janitor <janitor@jelmer.uk>  Sun, 01 Nov 2020 13:13:12 -0000
 
