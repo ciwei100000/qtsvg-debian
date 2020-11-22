@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: qtsvg-opensource-src
+Upstream-Name: qtsvg-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
@@ -37,7 +37,7 @@ License: BSD-3-clause and Expat
 Files: src/svg/qsvghandler.cpp
 Copyright: 2002 USC/Information Sciences Institute
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2, and MIT-ISI
+License: LGPL-3 or GPL-2, and HPND-sell-variant
 
 Files: tests/auto/*
        tests/benchmarks/*
@@ -82,7 +82,7 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
-License: MIT-ISI
+License: HPND-sell-variant
  Permission to use, copy, modify, distribute, and sell this software
  and its documentation for any purpose is hereby granted without
  fee, provided that the above copyright notice appear in all copies
