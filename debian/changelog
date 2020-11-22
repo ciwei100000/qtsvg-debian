@@ -1,4 +1,4 @@
-qtsvg-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.15.2-1) experimental; urgency=medium
 
   [ Debian Janitor ]
   * Apply multi-arch hints.
@@ -13,7 +13,7 @@ qtsvg-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
     large qttools5-dev-tools package.
   * Update debian/copyright.
 
- -- Debian Janitor <janitor@jelmer.uk>  Sun, 01 Nov 2020 13:13:12 -0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 22 Nov 2020 21:32:24 +0300
 
 qtsvg-opensource-src (5.15.1-2) unstable; urgency=medium
 
