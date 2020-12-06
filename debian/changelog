@@ -2,6 +2,7 @@ qtsvg-opensource-src (5.15.2-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/libqt5svg5.symbols from buildds’ logs.
+  * Bump Standards-Version to 4.5.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Dec 2020 18:50:48 +0300
 
