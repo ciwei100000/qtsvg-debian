@@ -1,3 +1,8 @@
+qtsvg-opensource-src (5.15.2-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Apr 2021 20:22:26 +0300
+
 qtsvg-opensource-src (5.15.2-2) unstable; urgency=medium
 
   * Update debian/libqt5svg5.symbols from buildds’ logs.
