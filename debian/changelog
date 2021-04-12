@@ -1,11 +1,10 @@
-qtsvg-opensource-src (5.15.2-3) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.15.2-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Backport upstream commits to fix out of bounds read in QRadialFetchSimd
     function (CVE-2021-3481, closes: #986798).
   * Update debian/watch to track only 5.15.x releases.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Apr 2021 20:22:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 12 Apr 2021 20:58:31 +0300
 
 qtsvg-opensource-src (5.15.2-2) unstable; urgency=medium
 
