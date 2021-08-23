@@ -1,3 +1,9 @@
+qtsvg-opensource-src (5.15.2-3c1) unstable; urgency=medium
+
+  * Merge tag 'debian/5.15.2-3' into ciwei100000
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Mon, 23 Aug 2021 07:32:57 -0700
+
 qtsvg-opensource-src (5.15.2-3) unstable; urgency=medium
 
   * Backport upstream commits to fix out of bounds read in QRadialFetchSimd
