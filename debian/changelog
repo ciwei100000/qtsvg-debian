@@ -1,3 +1,8 @@
+qtsvg-opensource-src (5.15.2-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Jan 2022 22:42:55 +0300
+
 qtsvg-opensource-src (5.15.2-3) unstable; urgency=medium
 
   * Backport upstream commits to fix out of bounds read in QRadialFetchSimd
