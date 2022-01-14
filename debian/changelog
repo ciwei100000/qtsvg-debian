@@ -1,3 +1,9 @@
+qtsvg-opensource-src (5.15.2-4c1) unstable; urgency=medium
+
+  * Merge tag 'debian/5.15.2-4' into ciwei100000
+
+ -- Xuqing Liu <ciwei100000@gmail.com>  Fri, 14 Jan 2022 08:51:34 -0800
+
 qtsvg-opensource-src (5.15.2-4) unstable; urgency=medium
 
   * Backport upstream commit to do stricter error checking when parsing path
