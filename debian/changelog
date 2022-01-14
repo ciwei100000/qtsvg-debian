@@ -1,3 +1,12 @@
+qtsvg-opensource-src (5.15.2-4) unstable; urgency=medium
+
+  * Backport upstream commit to do stricter error checking when parsing path
+    nodes (CVE-2021-45930, closes: #1002991).
+  * Backport upstream commit to reject oversize SVGs as corrupt.
+  * Bump Standards-Version to 4.6.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 09 Jan 2022 16:26:35 +0300
+
 qtsvg-opensource-src (5.15.2-3c1) unstable; urgency=medium
 
   * Merge tag 'debian/5.15.2-3' into ciwei100000
